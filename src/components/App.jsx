@@ -87,12 +87,12 @@ export class App extends Component {
           <h1>Phonebook</h1>
           <ContactForm onSubmit={this.addContact} />
 
-          <h2>Contacts</h2>
+          {/* <h2>Contacts</h2>
           <Filter value={filter} onChange={this.changeFilter} />
           <ContactList
             onDeleteContact={this.deleteContact}
             contacts={visibleContacts}
-          />
+          /> */}
         </div>
       </div>
     );
